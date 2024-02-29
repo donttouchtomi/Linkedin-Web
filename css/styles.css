@@ -27,7 +27,6 @@ body {
   list-style: none;
   display: flex;
   gap: 40px;
-  /* margin-left: 100px; */
 }
 
 .texts ul li a {
@@ -42,15 +41,16 @@ body {
   display: flex;
   gap: 15px;
   margin: 20px;
+  padding-right: 50px;
 }
 
 .join {
-  border: 1px solid white;
+  border: none;
   border-radius: 20px;
   background-color: white;
   color: black;
-  width: 110px;
-  height: 40.8px;
+  width: 90px;
+  height: 45px;
   cursor: pointer;
   transition: 0.5s;
   font-size: 15px;
@@ -63,8 +63,8 @@ body {
 .sign {
   border: 1.5px solid rgba(8, 78, 183, 1);
   border-radius: 25px;
-  width: 110px;
-  height: 40.8px;
+  width: 90px;
+  height: 45px;
   background-color: white;
   color: rgba(8, 78, 183, 1);
   cursor: pointer;
@@ -77,9 +77,9 @@ body {
 }
 
 .man {
-  width: 55%;
-  width: 55%;
-  margin-left: 600px;
+  width: 50%;
+  height: 50%;
+  margin-left: 650px;
   margin-top: -400px;
 }
 
@@ -92,4 +92,109 @@ body {
   width: 600px;
   font-size: 50px;
   color: brown;
+}
+
+.forms {
+  /* border: 1px solid black; */
+  margin-top: -80px;
+  border-radius: 1.5px;
+}
+
+#email {
+  width: 450px;
+  height: 50px;
+  font-size: 15px;
+  padding: 0px 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#password {
+  width: 450px;
+  height: 50px;
+  font-size: 20px;
+  padding: 0px 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.forms a {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgba(8, 78, 183, 1);
+}
+.footer {
+  margin-top: -100px; 
+  margin-left: 100px;
+}
+
+.sign2 {
+border: none;
+border-radius: 25px;
+width: 450px;
+height: 50px;
+font-size: 17.5px;
+font-weight: 300;
+background-color: rgba(8, 78, 183, 1);
+color: white;
+cursor: pointer;
+transition: 0.5s;
+}
+.sign2:hover {
+  background-color: rgb(14, 60, 129);
+}
+.note {
+  width: 400px;
+  /* margin-top: 50px; */
+  margin-left: 25px;
+  font-size: 12.5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.note a {
+  text-decoration: none;
+  color: rgba(8, 78, 183, 1);
+}
+hr {
+  margin-top: 50px;
+  width: 200px;
+}
+.line {
+  margin-top: 10px; 
+  margin-left: 15px;
+  display: flex;
+}
+.google {
+  margin-top: 25px;
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 400px;
+  height: 50px;
+  font-size: 17.5px;
+  font-weight: 300;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.linkedin {
+  margin-top: 10px;
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 400px;
+  height: 50px;
+  font-size: 17.5px;
+  font-weight: 300;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.google:hover {
+  border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.1);
+  
+}
+.linkedin:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
